@@ -16,7 +16,7 @@ These characteristics of the transformer can be mainly attributed to the use of 
    </p>
    The encoder reads the input and generate a vector called context vector while the decoder yields next word given c and all the previously predicted words *[paper 4]*. 
    <p align="center">
-   <img src="https://cdn-ak.f.st-hatena.com/images/fotolife/R/Ryobot/20171221/20171221163853.png" width="700">
+   <img src="https://cdn-ak.f.st-hatena.com/images/fotolife/R/Ryobot/20171221/20171221163853.png">
    <br><i>Figure4: Transformer</i>
    </p>
     For Transformer, encoding component is a stack of 6 encoder blocks, each block is composed of two sublayers:  multi-head attention and feed forward network. The decoder has both layers in encoder, but inserts a masked multi-head attention layer before them. Also, residual connection and layer normalization are empolyed for all mentioned layers. The overall architecture is shown in *[figure 4]*.
